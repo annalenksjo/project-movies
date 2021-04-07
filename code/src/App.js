@@ -16,7 +16,7 @@ export const App = () => {
       <Route path="/movies/:movieId" exact>
         < MovieDetails/>
       </Route>
-      < Route>
+      < Route> 
         <NotFound />
       </Route>
     </Switch>
